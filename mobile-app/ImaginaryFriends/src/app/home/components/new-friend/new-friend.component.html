@@ -1,0 +1,22 @@
+<StackLayout class="my-page" flexDirection="column" flexWrap="wrap">
+    <Button (tap)="goMenu()" text="BACK" class="my-back-btn"></Button>
+    <StackLayout class="my-input-container">
+        <Label class="h3" text="Name"></Label>
+        <TextField class=" my-input"></TextField>
+    </StackLayout>
+
+    <StackLayout class="my-input-container b">
+        <Label class="h3" text="Draw your friend"></Label>
+        <DrawingPad #DrawingPad
+                    width="100%"
+                    class="my-input-container a"
+                    height="60%"
+                    id="drawingPad"
+                    penColor="#ff4081" penWidth="2">
+        </DrawingPad>
+    </StackLayout>
+
+    <Button class="my-btn my-clear-btn" text="CLEAR" (tap)="clearMyDrawing()"></Button>
+    <Button class="my-btn my-save-btn" text="CREATE" (tap)="getMyDrawing()"></Button>
+
+</StackLayout>

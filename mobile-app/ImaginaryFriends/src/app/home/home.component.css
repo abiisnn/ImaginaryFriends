@@ -1,0 +1,26 @@
+
+.middle-container {
+    height: 50%;
+    width: 100%;
+    margin-top: 30%;
+}
+.h1 {
+    color: #141414;
+    font-size: 40%;
+}
+.my-labels {
+    height: 30%;
+}
+.my-img {
+    border-width: 1 1 1 1;
+    border-radius: 50px;
+    width: 30%;
+    background-color: #2d3436;
+    height: 30%;
+}
+.my-btn {
+    background-color: #1FAA00;
+}
+.my-page{
+    background-color: #f9f9f9;
+}

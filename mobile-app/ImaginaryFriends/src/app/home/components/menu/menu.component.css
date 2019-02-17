@@ -1,0 +1,22 @@
+/* Add mobile styles for the component here.  */
+.my-page{
+    background-color: #EA2027;
+}
+.my-btn {
+    margin-top: 15%;
+}
+.first{
+    background-color: #FFC312;
+    border-radius: 50px;
+}
+.second {
+    border-radius: 50px;
+    background-color: #12CBC4;
+}
+.third {
+    background-color: #0652DD;
+    margin: 15% 0px 0px;
+    border-radius: 999px 999px 0px 0px;
+    height: 15%;
+}
+

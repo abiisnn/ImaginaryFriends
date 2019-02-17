@@ -1,0 +1,8 @@
+<StackLayout class="my-page" flexDirection="column" flexWrap="wrap">
+    <Button (tap)="goMenu()" text="BACK" class="my-back-btn"></Button>
+    <ScrollView  class="events-container">
+        <StackLayout class="item-container" >
+            <ns-friend-card [imaginaryFriend]="item"  class="item" *ngFor="let item of myArr; let i = index"></ns-friend-card>
+        </StackLayout>
+    </ScrollView>
+</StackLayout>

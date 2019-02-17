@@ -1,0 +1,46 @@
+/* Add mobile styles for the component here.  */
+.my-page {
+    text-align: left;
+}
+.my-input {
+    color: #141414;
+    font-size: 24px;
+}
+.my-input-container {
+    border-width: 1 1 1 1;
+    border-color: #EA2027;
+    border-radius: 20px;
+    padding: 25px;
+    background-color: #f9f9f9;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.a {
+    margin-top: 0px;
+}
+.b {
+    border-color: #12CBC4;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+.my-btn {
+    text-align: center;
+    height: 10%;
+}
+.my-clear-btn {
+    background-color: #ff1744;
+}
+.my-save-btn {
+    background-color: #00caab;
+}
+.my-back-btn {
+    background-color: #FFC312;
+    color: #f9f9f9;
+    height: 10%;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 0px;
+    width: 100%;
+    border-radius: 0 0 100px 100px;
+}

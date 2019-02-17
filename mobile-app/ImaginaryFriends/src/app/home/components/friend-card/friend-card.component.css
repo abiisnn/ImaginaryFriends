@@ -1,0 +1,31 @@
+/* Add mobile styles for the component here.  */
+.item {
+    width: 100%;
+    border-width: 1 1 1 1;
+    border-color: silver;
+    margin-bottom: 20%;
+    border-radius: 15%;
+
+}
+.item-content {
+    padding: 0%;
+}
+.name {
+    color: #767676;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 72px;
+}
+.content-info {
+    background-color: #f6f6f6;
+    border-radius: 0% 0% 15% 15%;
+    padding: 30%;
+    width: 105%;
+    visibility: collapse;
+    justify-content: flex-start;
+
+}
+
+.text-cont {
+    line-height: 5px;
+}
